@@ -37,7 +37,7 @@ poetry install
 
 ```shell
 cd python/src
-poetry run flask --app flaskjs.py
+poetry run flask --app flaskjs.py run
 ```
 
 View at http://localhost:5000 .
