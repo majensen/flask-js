@@ -1,0 +1,20 @@
+<html>
+  <title> Got JS? </title>
+  <head>
+    <script src="/static/js/model-navigator.js"></script>
+  </head>
+  <body>
+    <h1>Got Javascript?</h1>
+    <button onClick="modelNavigator.placeNavigator('mns', [
+          'https://raw.githubusercontent.com/CBIIT/icdc-model-tool/develop/model-desc/icdc-model.yml',
+          'https://raw.githubusercontent.com/CBIIT/icdc-model-tool/develop/model-desc/icdc-model-props.yml'
+        ]);">
+      Totally!
+    </button>
+    <p/>
+    <p/>
+    <div style="border: solid; background-color: grey;" id="mns">
+      Where is it?
+    </div>
+  </body>
+</html>
